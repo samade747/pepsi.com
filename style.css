@@ -35,14 +35,15 @@ navbar-brand{
 button {
     font-weight: bold;
     color: white;
-    border-radius: 100rem;
-    width: 195.02px;
+    border-radius: 50px 50px 50px;
+    width: 295.02px;
     height: 42.66px;
-    border: 1px solid white;
+    border: 3px solid white;
     background-color: #3653F8;
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
   
   button .span-mother {
@@ -81,6 +82,11 @@ button {
   button .span-mother span:nth-child(6) {
     transition: .7s;
   }
+
+  button .span-mother span:nth-child(7) {
+    transition: .8s;
+  }
+
   
   button .span-mother2 {
     display: flex;
@@ -121,8 +127,34 @@ button {
     transition: .7s;
   }
 
+  button .span-mother2 span:nth-child(7) {
+    transition: .8s;
+  }
   
+  button .span-mother2 span:nth-child(8) {
+    transition: .9s;
+  }
 
+  button .span-mother2 span:nth-child(9) {
+    transition: .10s;
+  }
+
+  
+  button .span-mother2 span:nth-child(10) {
+    transition: .11s;
+  }
+
+  button .span-mother2 span:nth-child(11) {
+    transition: .12s;
+  }
+
+  button .span-mother2 span:nth-child(12) {
+    transition: .13s;
+  }
+
+  button .span-mother2 span:nth-child(13) {
+    transition: .14s;
+  }
 
 
   /* button end  */
