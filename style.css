@@ -38,7 +38,7 @@ button {
     padding: 0.4em 1.85em;
     font-weight: bold;
     color: white;
-    border-radius: 1.8em;
+    border-radius: 1.8em !important;
     width: 295.02px;
     border: 2px solid white;
     background-color: #3653F8;
@@ -47,7 +47,15 @@ button {
     align-items: center;
     cursor: pointer;
     text-transform: uppercase;
+    font-weight: bold;
     
+  }
+
+  button:hover{
+    background-color: #fff;
+    color: #0065c3;
+    border-radius: 25px;
+
   }
   
   button .span-mother {
@@ -61,6 +69,7 @@ button {
   
   button:hover .span-mother span {
     transform: translateY(1.2em);
+    
   }
   
   button .span-mother span:nth-child(1) {
@@ -96,6 +105,7 @@ button {
     display: flex;
     position: absolute;
     overflow: hidden;
+    
 
   }
   
@@ -162,3 +172,12 @@ button {
 
 
   /* button end  */
+
+
+  /* logo rotate */
+  .logo{
+    
+
+
+
+  }
