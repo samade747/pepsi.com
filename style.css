@@ -196,6 +196,9 @@ button {
     border: 10px solid red;
     max-height: 600px;
     display: flex;
+    flex-direction: column;
+    
+
   }
 
 
@@ -205,11 +208,12 @@ button {
    min-width: 50%;
    height: 600px;
    
+   
+   
   }
 
   #bottlekiimage >img{
-   align-items: flex-end;
-   justify-content: center;
+   
    width: 80%;   
    height: 600px;
    margin: 90px;
