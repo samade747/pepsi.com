@@ -186,7 +186,7 @@ button {
     background-repeat: no-repeat;
     display: flex;
     flex-direction: row-reverse;
-     
+    align-items: start; 
     
    
    
@@ -195,15 +195,18 @@ button {
   
   /* unlock  */
   #logounlock{
-
+    
     display: flex;    
+    flex-direction: column;
     align-items: center;  
+    justify-content: flex-end;
 
   }
 
   .logounlock > img {    
-    width: 80%;
-    min-width: 50%;
+    object-fit: contain;
+    width: 70%;
+   
     height: 500px;   
        
   }
@@ -213,13 +216,27 @@ button {
 
 
   #unlockpespi2{   
-   width: 50%;
+   
    margin-top: 100px;
-   height: 700px;      
+   height: 900px;
+   object-fit: cover;      
   }
 
   #unlockpespi2 >img{   
-   height: 600px;
+   object-fit: contain;
+   height: 800px;
   }
 
+  .button1{
+    align-content: flex-end;
+   
+  }
+
+  #text{
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    font-size: 11px;
   
+
+  }
