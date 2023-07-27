@@ -261,9 +261,14 @@ button {
 }
 
 #logo1{
+  border: 10px solid yellow;
   display: flex;
   position: relative;
+  
 }
+
+
+
 
 #imtaste {
   width: 300px;
@@ -273,7 +278,11 @@ button {
 }
 
 #zero1{
+  border: 10px solid red;
   display: flex;
+  align-items: center;
+  justify-content: center;
+
 
 }
 
@@ -295,7 +304,7 @@ button {
   background-repeat: no-repeat;
   height: 660px;
   width: 100%;
-  border: 10px red solid;
+  
  
   display: flex;
   
@@ -306,7 +315,7 @@ button {
 
 
 #nitro1 {
-  border: 5px yellow solid;
+  
   display: flex;
  flex-direction: row-reverse;
  justify-content: center;
