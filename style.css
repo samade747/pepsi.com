@@ -400,3 +400,12 @@ button {
   background-size: 1890px 868px ;
 }
 
+/* mango-container  */
+
+.mango-container{
+  width: 100%;
+  max-height: 600px;
+  background-color: #1437bf;
+
+
+}
