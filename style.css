@@ -522,7 +522,13 @@ button {
 }
 .buttonright > button{
   margin-top: 50px;
-  margin-left: 150px;
-    
+  margin-left: 150px;    
+
+}
+
+.stayonthepulse{
+  width: 100%;
+  height: 800px;
+
 
 }
