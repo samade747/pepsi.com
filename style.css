@@ -491,6 +491,10 @@ button {
   overflow: hidden;
 }
 
+.FAVORIEFLAVORS-TEXT > h2 {
+  font-weight: 400;
+
+}
 
 
 .FAVORIEFLAVORS-rightsection{ 
