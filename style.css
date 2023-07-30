@@ -491,19 +491,38 @@ button {
   overflow: hidden;
 }
 
-.FAVORIEFLAVORS-TEXT > h2 {
-  font-weight: 400;
+.FAVORIEFLAVORS-RIGHTSECTION{
+  border: 10px red solid;
+  margin-top: 150px;
+  margin-left: 150px;
+  width: 800px;
 
+}
+
+.FAVORIEFLAVORS-TEXT > h2 {
+  font-family: Cervo Neue Black, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 70px;
+  
+  
 }
 
 
 .FAVORIEFLAVORS-rightsection{ 
   justify-content: center;
   text-align: center;
+  margin-top: 50px;
 }
 
 .FAVORIEFLAVORS-IMAGE > img{
   margin-top: 170px;
   margin-left: 450px;
+
+}
+.buttonright > button{
+  margin-top: 50px;
+  margin-left: 150px;
+    
 
 }
