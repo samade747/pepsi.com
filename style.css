@@ -199,7 +199,7 @@ button {
   /* unlock  */
   #logounlock{
     
-    margin-right: 350px;
+    margin-right: 50px;
     display: flex;    
     flex-direction: column;
     align-items: center;  
@@ -209,16 +209,16 @@ button {
 
   .logounlock > img {    
     
-    height: 600px;        
+    height: 400px;        
   }
 
   #unlockpespi2{   
-   margin-top: 110px; 
+   margin-top: 210px; 
    overflow: hidden;
   }
 
   #unlockpespi2 > img{   
-   height: 950px;
+   height: 850px;
   }
 
   .button1{
@@ -247,7 +247,7 @@ button {
 }
 
 #logo1{
- 
+  
   display: flex;
   position: relative;
   
@@ -441,7 +441,7 @@ button {
 
 
 .eight-image>img{
-    width: 1800px;
+    width: 1000px;
     height: 900px;
     object-fit: cover;
     
@@ -469,8 +469,7 @@ button {
 
 }
 
-.mango-rightsectionr{
- 
+.mango-rightsectionr{ 
   margin-left: 450px;
   margin-top: 350px;
   justify-content: center;
@@ -530,12 +529,10 @@ button {
 
 .stayonthepulse{
   width: 100%;
-  height: 85px;
-  
+  height: 75px;  
   font-family: Sofia Pro Regular, Helvetica Neue, Helvetica, Arial, sans-serif;
   color: #fff;
-  display: flex;
-  
+  display: flex;  
   align-items: center;
   justify-content: center;
   overflow: hidden;
